@@ -175,6 +175,8 @@ async function main() {
 }
 
 main().catch((err) => {
-  console.error('✗ sync-questions failed:', err.message)
-  process.exit(1)
+  console.error(
+    '⚠ sync-questions failed — keeping bundled questions:',
+    err.message,
+  )
 })
