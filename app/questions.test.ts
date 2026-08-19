@@ -69,14 +69,9 @@ describe('normalizeQuestionSource', () => {
 })
 
 describe('stored audience parsing', () => {
-  it('falls back to all packs when stored values are no longer valid', () => {
+  it('falls back to the default pack when stored values are no longer valid', () => {
     expect(parseStoredContext(['friends', 'small-group', 'family'])).toEqual([
       'fellowship',
-      'household',
-      'dating',
-      'engaged',
-      'marriage',
-      'youth',
     ])
   })
 })

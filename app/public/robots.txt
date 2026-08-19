@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /curator
+Disallow: /curator.html
+Disallow: /api/
+
+Sitemap: https://www.spill.cards/sitemap.xml

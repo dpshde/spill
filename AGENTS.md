@@ -10,6 +10,7 @@
 ## Repo overview
 
 - `app/`: Vite frontend and question-selection logic
+- `app/public/guides/`: generated SEO landing pages for indexed query clusters
 - `api/`: Vercel Edge handlers
 - `lib/`: shared observability helpers
 - `docs/`: architecture, runbooks, and OpenAPI schema
@@ -25,6 +26,7 @@ pnpm quality
 pnpm test:integration
 pnpm validate:agents
 pnpm flags:check
+pnpm guides:generate
 pnpm docs:generate
 ```
 

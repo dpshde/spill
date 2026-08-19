@@ -216,6 +216,12 @@ export const QuestionCard = component(() => {
                   <p class="card-frame__hint">
                     Pick your packs, then tap below.
                   </p>
+                  <a
+                    class="card-frame__guides"
+                    href="/guides/christian-conversation-starters/"
+                  >
+                    Browse conversation starters
+                  </a>
                 </div>
               </div>`
         }}

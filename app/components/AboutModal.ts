@@ -99,6 +99,11 @@ export const AboutModal = component(
                       better question for the kind of shared life you're trying
                       to build.
                     </p>
+                    <p class="about-modal__body">
+                      Prefer a list first?
+                      <a href="/guides/">Browse conversation starters</a>
+                      for small groups, dating, youth, and family.
+                    </p>
                   </div>
 
                   <div class="about-modal__section">

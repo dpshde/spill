@@ -1,3 +1,15 @@
 {
+  "redirects": [
+    {
+      "source": "/guides/christian-conversation-prompts",
+      "destination": "/guides/christian-conversation-starters",
+      "permanent": true
+    },
+    {
+      "source": "/guides/christian-conversation-prompts/",
+      "destination": "/guides/christian-conversation-starters/",
+      "permanent": true
+    }
+  ],
   "rewrites": [{ "source": "/c/:slug*", "destination": "/index.html" }]
 }

@@ -19,3 +19,5 @@ test-results/**
 node_modules
 node_modules/**
 pnpm-lock.yaml
+app/public/sitemap.xml
+app/public/robots.txt

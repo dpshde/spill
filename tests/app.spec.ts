@@ -4,6 +4,9 @@ test('loads the landing screen and opens filters', async ({ page }) => {
   await page.goto('/')
 
   await expect(page.getByRole('link', { name: 'Spill' })).toBeVisible()
+  await expect(
+    page.getByRole('link', { name: 'Browse conversation starters' }),
+  ).toBeVisible()
   await expect(page.getByRole('button', { name: 'Draw a card' })).toBeVisible()
 
   await page

@@ -1248,6 +1248,20 @@ button.controls__summary:active {
   opacity: 0.8;
 }
 
+.card-frame__guides {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: var(--ink-2);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.card-frame__guides:hover {
+  color: var(--ink);
+}
+
 /* Deck controls: below the card (not inside .card — avoid double borders on one surface) */
 .stage__deck {
   flex-shrink: 0;
