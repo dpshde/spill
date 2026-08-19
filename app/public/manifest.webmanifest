@@ -46,14 +46,14 @@
       "short_name": "Draw",
       "description": "Draw your next conversation card.",
       "url": "./",
-      "icons": [{ "src": "icons/icon-192-maskable.png", "sizes": "192x192" }]
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "Configure packs",
       "short_name": "Packs",
       "description": "Choose which conversation packs to play with.",
       "url": "./",
-      "icons": [{ "src": "icons/icon-192-maskable.png", "sizes": "192x192" }]
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
     }
   ],
   "share_target": {

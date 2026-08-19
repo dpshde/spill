@@ -1,4 +1,4 @@
-const VERSION = 'spill-pwa-v1'
+const VERSION = 'spill-pwa-v3'
 const PRECACHE = `${VERSION}:precache`
 const RUNTIME = `${VERSION}:runtime`
 
@@ -16,6 +16,7 @@ const appShell = [
   `${basePath}icons/icon-512-maskable.png`,
   `${basePath}icons/apple-touch-icon.png`,
   `${basePath}icons/favicon-32.png`,
+  `${basePath}favicon.ico`,
 ]
 
 self.addEventListener('install', (event) => {

@@ -464,7 +464,9 @@ const renderPage = (page) => {
     <meta property="og:description" content="${escapeHtml(page.description)}" />
     <meta property="og:url" content="${origin}${page.path}" />
     <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
     <link rel="stylesheet" href="${cssHref}" />
     <script type="application/ld+json">${jsonLd(page)}</script>
   </head>
