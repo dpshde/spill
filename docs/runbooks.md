@@ -8,6 +8,15 @@
 - **Alerting:** Failed Quality, Integration, Release Plan, and Vercel Deploy runs on `main` automatically open or update a GitHub Issue with a response checklist via `.github/workflows/workflow-alerts.yml`. Issues are labeled `ci`.
 - **Vercel deploy status:** each deploy is visible at the Vercel dashboard. Preview deploys run on every PR; production deploys run on every push to `main`.
 
+## SEO guide pages
+
+After 2026-08-19, `/guides/` must stay public on `www.spill.cards`.
+
+- Confirm `/guides/christian-conversation-starters/` returns 200 and is not `noindex`.
+- Confirm `/sitemap.xml` lists the six guide URLs.
+- Do not add more guide pages unless [`docs/seo-watch.md`](seo-watch.md) says the current bet worked.
+- Kill date for the bet is **2026-11-17**.
+
 ## Checking deploy impact
 
 After a production deploy lands on `main`:

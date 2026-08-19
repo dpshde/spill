@@ -11,6 +11,7 @@
 
 - `app/`: Vite frontend and question-selection logic
 - `app/public/guides/`: generated SEO landing pages for indexed query clusters
+- `docs/seo-watch.md`: success, fail, and kill rules for the 2026-08-19 SEO bet
 - `api/`: Vercel Edge handlers
 - `lib/`: shared observability helpers
 - `docs/`: architecture, runbooks, and OpenAPI schema
