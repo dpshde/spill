@@ -40,7 +40,7 @@
   "dependencies": {
     "@arrow-js/core": "^1.0.6",
     "@pierre/diffs": "^1.1.15",
-    "@sentry/browser": "^10.48.0",
+    "@sentry/browser": "^11.12.0",
     "web-haptics": "^0.0.6"
   },
   "devDependencies": {
